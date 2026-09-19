@@ -20,6 +20,9 @@ nav:
   - Second: second.md
   - Third: third.md
 
+hooks:
+  - hooks.py
+
 extra_css:
   - stylesheets/override.css
 
