@@ -3,8 +3,9 @@ site_url: https://rajnco.github.io/mkdocs-ghworkflow/
 repo_url: https://github.com/rajnco/mkdocs-ghworkflow
 repo_name: rajnco/mkdocs-ghworkflow
 
-theme: 
+theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: 'indigo'
     accent: 'indigo'
@@ -15,4 +16,9 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
-  
+  - First: first.md
+  - Second: second.md
+  - Third: third.md
+
+extra_javascript:
+  - javascripts/page_stats.js
