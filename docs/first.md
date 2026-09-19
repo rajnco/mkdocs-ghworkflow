@@ -36,7 +36,9 @@ In a car, passengers feel a push backward when the vehicle accelerates because t
 
 Yes, there is a strong relationship between Newton’s first law and Kepler’s laws of planetary motion. Kepler described how planets move around the Sun in ellipses, but Newton explained why they keep moving that way. According to Newton’s first law, a planet will continue moving in a straight line unless acted upon by a force. The Sun’s gravitational force continuously bends the planet’s path into an orbit.
 
-So, Kepler’s laws describe the observed motion of planets, while Newton’s first law explains the principle behind that motion: without a force, motion would be straight and uniform; gravity changes the direction of motion and keeps the planets in orbit.
+Kepler’s first law says planets move in ellipses with the Sun at one focus. Newton’s first law explains that a moving planet does not naturally curve on its own; it keeps moving in a straight line unless a force bends its path. The force is gravity, and the result is a stable orbit. Kepler’s second and third laws describe the speed and timing of planetary motion, while Newton showed that these observations are consistent with the idea of inertia and gravitational force.
+
+So, Kepler’s laws describe the observed motion of planets, while Newton’s first law explains the principle behind that motion: without a force, motion would be straight and uniform; gravity changes the direction of motion and keeps the planets in orbit. Together, the two ideas gave a deeper understanding of the structure of the solar system.
 
 ## Importance
 
