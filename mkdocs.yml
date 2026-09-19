@@ -1,0 +1,18 @@
+site_name: Newton's Law
+site_url: https://rajnco.github.io/newtons-law/
+repo_url: https://github.com/rajnco/mkdocs-ghworkflow
+repo_name: rajnco/mkdocs-ghworkflow
+
+theme: 
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - About: about.md
+  
