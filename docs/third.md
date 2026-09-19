@@ -16,6 +16,8 @@ When you jump off the ground, your legs push downward on the ground, and the gro
 
 A swimmer pushing water backward moves forward because the water pushes back on the swimmer. In the same way, a bird pushes air downward and the air pushes the bird upward, helping it fly.
 
+Cars and motorcycles also depend on this law. The tires push the road backward, and the road pushes the tires forward. Without this reaction force, the vehicle would not move along the ground.
+
 ## Relation to the Other Laws
 
 The third law works together with the first and second laws. The first law tells us that objects resist changes in motion, the second law tells us how much motion changes when a force acts, and the third law explains that forces always occur in pairs during interactions between objects.
