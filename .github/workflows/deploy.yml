@@ -4,11 +4,10 @@ on:
     branches:
       - main
       - dev
-    workflow_dispatch: {}
-
     paths:
       - 'docs/**'
       - '.github/workflows/deploy.yml'
+  workflow_dispatch: {}
 
 permissions:
   contents: write
