@@ -11,7 +11,7 @@ def on_page_markdown(markdown, page, config, files):
 
     try:
         log = subprocess.check_output(
-            ['git', 'log', '--follow', '--date=short', '--pretty=format:%h | %ad | %an', '--', str(file_path)],
+            ['git', 'log', '--follow', '--date=short', '--pretty=format:%h|%ad|%an', '--', str(file_path)],
             cwd=config['site_dir'].parent if config.get('site_dir') else '.',
             stderr=subprocess.DEVNULL,
             text=True,
@@ -19,21 +19,24 @@ def on_page_markdown(markdown, page, config, files):
     except Exception:
         return markdown
 
-    history_lines = [line.strip() for line in log.splitlines() if line.strip()]
-    if not history_lines:
+    rows = []
+    for line in log.splitlines():
+        entry = line.strip()
+        if not entry:
+            continue
+        commit, date, author = [part.strip() for part in entry.split('|', 2)]
+        rows.append(f"| `{commit}` | {date} | {author} |")
+
+    if not rows:
         return markdown
 
-    history_html = "\n".join(
-        f"<li><code>{entry}</code></li>" for entry in history_lines[:5]
-    )
-
-    footer = f"""
+    table = """
 
 ## Page history
 
-<ul>
-{history_html}
-</ul>
-"""
+| Commit | Date | Author |
+| --- | --- | --- |
+{rows}
+""".format(rows="\n".join(rows[:5]))
 
-    return markdown + footer
+    return markdown + table
