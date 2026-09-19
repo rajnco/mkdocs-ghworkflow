@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block header %}
+  <header>
+    <nav style="padding: 1rem 1.5rem; background: #1f2937; color: white; display: flex; justify-content: space-between; align-items: center;">
+      <div><strong>Newton's Law</strong></div>
+      <div>
+        <a href="/" style="color: white; margin-right: 1rem;">Home</a>
+        <a href="/about/" style="color: white; margin-right: 1rem;">About</a>
+        <a href="/first/" style="color: white; margin-right: 1rem;">First</a>
+        <a href="/second/" style="color: white; margin-right: 1rem;">Second</a>
+        <a href="/third/" style="color: white; color: white;">Third</a>
+      </div>
+    </nav>
+  </header>
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+  <div class="md-content__inner md-typeset">
+    {{ super() }}
+    <div id="page-stats" style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e5e7eb; font-size: 0.9rem; color: #4b5563;"></div>
+  </div>
+{% endblock %}
