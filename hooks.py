@@ -37,7 +37,7 @@ def on_page_markdown(markdown, page, config, files):
 
     rows = [
         f"| `{commit}` | {date} | {author} | {summary.replace('|', '\\|')} |"
-        for commit, date, author, summary in commits[:5]
+        for commit, date, author, summary in commits
     ]
     latest_commit, latest_date, latest_author, latest_summary = commits[0]
     history_rows = "\n".join(
