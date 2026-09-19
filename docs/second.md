@@ -20,6 +20,8 @@ The acceleration of an object depends on both the force applied and the objectâ€
 
 This means that force is not only about push or pull; it is also about how much the motion changes. The larger the net force on an object, the greater the acceleration, while the larger the mass, the smaller the acceleration for the same force.
 
+The law is especially important because it tells us that acceleration is caused by a net force, not just by motion itself. An object can be moving at a constant velocity and still experience balanced forces, resulting in no acceleration. Only unbalanced forces produce a change in motion.
+
 ## Everyday Example
 
 Pushing a light shopping cart is easier than pushing a full one. The full cart has more mass, so it needs a greater force to achieve the same acceleration.
