@@ -20,5 +20,8 @@ nav:
   - Second: second.md
   - Third: third.md
 
+extra_css:
+  - stylesheets/override.css
+
 extra_javascript:
   - javascripts/page_stats.js
