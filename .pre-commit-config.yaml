@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
+        alias: markdownlint-cli2-fix
+        args: [--fix]
+        name: Fix Markdown formatting (markdownlint-cli2)
+        types: [markdown]
+      - id: markdownlint-cli2
+        alias: markdownlint-cli2-lint
+        name: Lint Markdown (markdownlint-cli2)
+        types: [markdown]
